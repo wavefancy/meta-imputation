@@ -1,0 +1,1 @@
+/bin/sh -c cd /Users/richardzhao/Documents/项目文档/2022/imputationserver/code1/demo/exception && /Library/java/JavaVirtualMachines/jdk1.8.0_341.jdk/Contents/Home/bin/javac @/Users/richardzhao/Documents/项目文档/2022/imputationserver/code1/demo/exception/target/classes/org.codehaus.plexus.compiler.javac.JavacCompiler1317663809482061457arguments

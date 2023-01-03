@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="my.dao.FileChunkDTOMapper">
+  <resultMap id="BaseResultMap" type="bigfileupload.entity.FileChunkDTO">
+    <id column="chunk_number" jdbcType="INTEGER" property="chunkNumber" />
+    <id column="file_identifier" jdbcType="VARCHAR" property="fileIdentifier" />
+    <id column="userid" jdbcType="BIGINT" property="userid" />
+    <result column="chunk_size" jdbcType="BIGINT" property="chunkSize" />
+    <result column="chunk_identifier" jdbcType="VARCHAR" property="chunkIdentifier" />
+    <result column="upload_time" jdbcType="TIMESTAMP" property="uploadTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    chunk_number, file_identifier, userid, chunk_size, chunk_identifier, upload_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="bigfileupload.entity.FileChunkDTOKey" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from file_chunkdto
+    where chunk_number = #{chunkNumber,jdbcType=INTEGER}
+      and file_identifier = #{fileIdentifier,jdbcType=VARCHAR}
+      and userid = #{userid,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="bigfileupload.entity.FileChunkDTOKey">
+    delete from file_chunkdto
+    where chunk_number = #{chunkNumber,jdbcType=INTEGER}
+      and file_identifier = #{fileIdentifier,jdbcType=VARCHAR}
+      and userid = #{userid,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="bigfileupload.entity.FileChunkDTO">
+    insert into file_chunkdto (chunk_number, file_identifier, userid, 
+      chunk_size, chunk_identifier, upload_time
+      )
+    values (#{chunkNumber,jdbcType=INTEGER}, #{fileIdentifier,jdbcType=VARCHAR}, #{userid,jdbcType=BIGINT}, 
+      #{chunkSize,jdbcType=BIGINT}, #{chunkIdentifier,jdbcType=VARCHAR}, #{uploadTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="bigfileupload.entity.FileChunkDTO">
+    insert into file_chunkdto
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="chunkNumber != null">
+        chunk_number,
+      </if>
+      <if test="fileIdentifier != null">
+        file_identifier,
+      </if>
+      <if test="userid != null">
+        userid,
+      </if>
+      <if test="chunkSize != null">
+        chunk_size,
+      </if>
+      <if test="chunkIdentifier != null">
+        chunk_identifier,
+      </if>
+      <if test="uploadTime != null">
+        upload_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="chunkNumber != null">
+        #{chunkNumber,jdbcType=INTEGER},
+      </if>
+      <if test="fileIdentifier != null">
+        #{fileIdentifier,jdbcType=VARCHAR},
+      </if>
+      <if test="userid != null">
+        #{userid,jdbcType=BIGINT},
+      </if>
+      <if test="chunkSize != null">
+        #{chunkSize,jdbcType=BIGINT},
+      </if>
+      <if test="chunkIdentifier != null">
+        #{chunkIdentifier,jdbcType=VARCHAR},
+      </if>
+      <if test="uploadTime != null">
+        #{uploadTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="bigfileupload.entity.FileChunkDTO">
+    update file_chunkdto
+    <set>
+      <if test="chunkSize != null">
+        chunk_size = #{chunkSize,jdbcType=BIGINT},
+      </if>
+      <if test="chunkIdentifier != null">
+        chunk_identifier = #{chunkIdentifier,jdbcType=VARCHAR},
+      </if>
+      <if test="uploadTime != null">
+        upload_time = #{uploadTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where chunk_number = #{chunkNumber,jdbcType=INTEGER}
+      and file_identifier = #{fileIdentifier,jdbcType=VARCHAR}
+      and userid = #{userid,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="bigfileupload.entity.FileChunkDTO">
+    update file_chunkdto
+    set chunk_size = #{chunkSize,jdbcType=BIGINT},
+      chunk_identifier = #{chunkIdentifier,jdbcType=VARCHAR},
+      upload_time = #{uploadTime,jdbcType=TIMESTAMP}
+    where chunk_number = #{chunkNumber,jdbcType=INTEGER}
+      and file_identifier = #{fileIdentifier,jdbcType=VARCHAR}
+      and userid = #{userid,jdbcType=BIGINT}
+  </update>
+</mapper>

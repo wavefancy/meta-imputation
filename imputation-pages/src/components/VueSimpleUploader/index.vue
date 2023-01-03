@@ -32,7 +32,7 @@
 
 <script>
 import SparkMD5 from 'spark-md5'
-import { isEmpty,ckeckBrowerVersion }  from "@/utils/validate"
+import { isEmpty, }  from "@/utils/validate"
 import doCookie from "@/utils/cookie"
 import  {fileInterface} from '@/api'
 const FILE_UPLOAD_ID_KEY = 'file_upload_id'
@@ -68,15 +68,15 @@ const CHUNK_SIZE = 20 * 1024 * 1024
            */
           checkChunkUploadedByResponse: (chunk, message) => {
             let messageObj = JSON.parse(message)
-            let code = messageObj.code
-            if(code != 0 && code != "0"){
-              console.log(messageObj.msg)
-              return false
-            }
+            // let code = messageObj.code
+            // if(code != 0 && code != "0"){
+            //   console.log(messageObj.msg)
+            //   return false
+            // }
             let dataObj = messageObj.data
-            if (dataObj.uploaded !== undefined) {
-              return dataObj.uploaded
-            }
+            // if (dataObj.uploaded !== undefined) {
+            //   return !dataObj.uploaded
+            // }
             // 判断文件或分片是否已上传，已上传返回 true
             // 这里的 uploadedChunks 是后台返回
             return (dataObj.uploadedChunks || []).indexOf(chunk.offset + 1) >= 0
@@ -150,7 +150,7 @@ const CHUNK_SIZE = 20 * 1024 * 1024
               localPath: file.relativePath,
               totalChunks: totalChunksM == 0 ? 1:totalChunksM,
               desc: this.desc ,
-              OS : ckeckBrowerVersion(),
+              OS : "linux",
             }
             fileInterface.fileCreate(subData).then((response) => {
               let code = response.code

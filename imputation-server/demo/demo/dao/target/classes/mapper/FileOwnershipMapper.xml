@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="my.dao.FileOwnershipMapper">
+  <resultMap id="BaseResultMap" type="bigfileupload.entity.FileOwnership">
+    <id column="ownership_id" jdbcType="BIGINT" property="ownershipId" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="upload_time" jdbcType="TIMESTAMP" property="uploadTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="file_id" jdbcType="BIGINT" property="fileId" />
+    <result column="desc" jdbcType="VARCHAR" property="desc" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    ownership_id, status, upload_time, update_time, user_id, file_id, `desc`
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from file_ownership
+    where ownership_id = #{ownershipId,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from file_ownership
+    where ownership_id = #{ownershipId,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="bigfileupload.entity.FileOwnership" useGeneratedKeys="true" keyProperty="ownershipId">
+    insert into file_ownership (ownership_id, status, upload_time, 
+      update_time, user_id, file_id, 
+      `desc`)
+    values (#{ownershipId,jdbcType=BIGINT}, #{status,jdbcType=VARCHAR}, #{uploadTime,jdbcType=TIMESTAMP}, 
+      #{updateTime,jdbcType=TIMESTAMP}, #{userId,jdbcType=BIGINT}, #{fileId,jdbcType=BIGINT}, 
+      #{desc,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="bigfileupload.entity.FileOwnership">
+    insert into file_ownership
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="ownershipId != null">
+        ownership_id,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="uploadTime != null">
+        upload_time,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="fileId != null">
+        file_id,
+      </if>
+      <if test="desc != null">
+        `desc`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="ownershipId != null">
+        #{ownershipId,jdbcType=BIGINT},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="uploadTime != null">
+        #{uploadTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="fileId != null">
+        #{fileId,jdbcType=BIGINT},
+      </if>
+      <if test="desc != null">
+        #{desc,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="bigfileupload.entity.FileOwnership">
+    update file_ownership
+    <set>
+      <if test="status != null">
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="uploadTime != null">
+        upload_time = #{uploadTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=BIGINT},
+      </if>
+      <if test="fileId != null">
+        file_id = #{fileId,jdbcType=BIGINT},
+      </if>
+      <if test="desc != null">
+        `desc` = #{desc,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ownership_id = #{ownershipId,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="bigfileupload.entity.FileOwnership">
+    update file_ownership
+    set status = #{status,jdbcType=VARCHAR},
+      upload_time = #{uploadTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      user_id = #{userId,jdbcType=BIGINT},
+      file_id = #{fileId,jdbcType=BIGINT},
+      `desc` = #{desc,jdbcType=VARCHAR}
+    where ownership_id = #{ownershipId,jdbcType=BIGINT}
+  </update>
+  
+  <select id="checkOwnership" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from file_ownership
+    where file_id = #{fileId,jdbcType=BIGINT}
+    and user_id = #{userId,jdbcType=BIGINT}
+  </select>
+  
+  <delete id="delete">
+    delete from file_ownership 
+    where 1 = 1
+   	<if test="ownershipId != null">
+        and ownership_id = #{ownershipId,jdbcType=BIGINT}
+    </if>
+    <if test="fileId != null">
+        and file_id = #{fileId,jdbcType=BIGINT}
+    </if>
+    <if test="userId != null">
+        and user_id = #{userId,jdbcType=BIGINT}
+    </if>
+  </delete>
+</mapper>

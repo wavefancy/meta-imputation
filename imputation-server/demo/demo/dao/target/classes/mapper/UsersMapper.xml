@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="my.dao.UsersMapper">
+  <resultMap id="BaseResultMap" type="my.entity.Users">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="password_salt" jdbcType="VARCHAR" property="passwordSalt" />
+    <result column="email" jdbcType="VARCHAR" property="email" />
+    <result column="fullname" jdbcType="VARCHAR" property="fullname" />
+    <result column="user_reg_time" jdbcType="TIMESTAMP" property="userRegTime" />
+    <result column="user_status" jdbcType="VARCHAR" property="userStatus" />
+    <result column="user_desc" jdbcType="VARCHAR" property="userDesc" />
+    <result column="first_name" jdbcType="VARCHAR" property="firstName" />
+    <result column="last_name" jdbcType="VARCHAR" property="lastName" />
+    <result column="job_title" jdbcType="VARCHAR" property="jobTitle" />
+    <result column="organisation" jdbcType="VARCHAR" property="organisation" />
+    <result column="country" jdbcType="VARCHAR" property="country" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="user_unreg_time" jdbcType="TIMESTAMP" property="userUnregTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, username, password, password_salt, email, fullname, user_reg_time, user_status, 
+    user_desc, first_name, last_name, job_title, organisation, country, province, city, 
+    user_unreg_time
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from users
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="my.entity.Users" useGeneratedKeys="true" keyProperty="id">
+    insert into users (id, username, password, 
+      password_salt, email, fullname, 
+      user_reg_time, user_status, user_desc, 
+      first_name, last_name, job_title, 
+      organisation, country, province, 
+      city, user_unreg_time)
+    values (#{id,jdbcType=BIGINT}, #{username,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, 
+      #{passwordSalt,jdbcType=VARCHAR}, #{email,jdbcType=VARCHAR}, #{fullname,jdbcType=VARCHAR}, 
+      #{userRegTime,jdbcType=TIMESTAMP}, #{userStatus,jdbcType=VARCHAR}, #{userDesc,jdbcType=VARCHAR}, 
+      #{firstName,jdbcType=VARCHAR}, #{lastName,jdbcType=VARCHAR}, #{jobTitle,jdbcType=VARCHAR}, 
+      #{organisation,jdbcType=VARCHAR}, #{country,jdbcType=VARCHAR}, #{province,jdbcType=VARCHAR}, 
+      #{city,jdbcType=VARCHAR}, #{userUnregTime,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="my.entity.Users">
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="username != null">
+        username,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="passwordSalt != null">
+        password_salt,
+      </if>
+      <if test="email != null">
+        email,
+      </if>
+      <if test="fullname != null">
+        fullname,
+      </if>
+      <if test="userRegTime != null">
+        user_reg_time,
+      </if>
+      <if test="userStatus != null">
+        user_status,
+      </if>
+      <if test="userDesc != null">
+        user_desc,
+      </if>
+      <if test="firstName != null">
+        first_name,
+      </if>
+      <if test="lastName != null">
+        last_name,
+      </if>
+      <if test="jobTitle != null">
+        job_title,
+      </if>
+      <if test="organisation != null">
+        organisation,
+      </if>
+      <if test="country != null">
+        country,
+      </if>
+      <if test="province != null">
+        province,
+      </if>
+      <if test="city != null">
+        city,
+      </if>
+      <if test="userUnregTime != null">
+        user_unreg_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="passwordSalt != null">
+        #{passwordSalt,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="fullname != null">
+        #{fullname,jdbcType=VARCHAR},
+      </if>
+      <if test="userRegTime != null">
+        #{userRegTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userStatus != null">
+        #{userStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="userDesc != null">
+        #{userDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="firstName != null">
+        #{firstName,jdbcType=VARCHAR},
+      </if>
+      <if test="lastName != null">
+        #{lastName,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitle != null">
+        #{jobTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="organisation != null">
+        #{organisation,jdbcType=VARCHAR},
+      </if>
+      <if test="country != null">
+        #{country,jdbcType=VARCHAR},
+      </if>
+      <if test="province != null">
+        #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null">
+        #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="userUnregTime != null">
+        #{userUnregTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="my.entity.Users">
+    update users
+    <set>
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="passwordSalt != null">
+        password_salt = #{passwordSalt,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null">
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="fullname != null">
+        fullname = #{fullname,jdbcType=VARCHAR},
+      </if>
+      <if test="userRegTime != null">
+        user_reg_time = #{userRegTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="userStatus != null">
+        user_status = #{userStatus,jdbcType=VARCHAR},
+      </if>
+      <if test="userDesc != null">
+        user_desc = #{userDesc,jdbcType=VARCHAR},
+      </if>
+      <if test="firstName != null">
+        first_name = #{firstName,jdbcType=VARCHAR},
+      </if>
+      <if test="lastName != null">
+        last_name = #{lastName,jdbcType=VARCHAR},
+      </if>
+      <if test="jobTitle != null">
+        job_title = #{jobTitle,jdbcType=VARCHAR},
+      </if>
+      <if test="organisation != null">
+        organisation = #{organisation,jdbcType=VARCHAR},
+      </if>
+      <if test="country != null">
+        country = #{country,jdbcType=VARCHAR},
+      </if>
+      <if test="province != null">
+        province = #{province,jdbcType=VARCHAR},
+      </if>
+      <if test="city != null">
+        city = #{city,jdbcType=VARCHAR},
+      </if>
+      <if test="userUnregTime != null">
+        user_unreg_time = #{userUnregTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="my.entity.Users">
+    update users
+    set username = #{username,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      password_salt = #{passwordSalt,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      fullname = #{fullname,jdbcType=VARCHAR},
+      user_reg_time = #{userRegTime,jdbcType=TIMESTAMP},
+      user_status = #{userStatus,jdbcType=VARCHAR},
+      user_desc = #{userDesc,jdbcType=VARCHAR},
+      first_name = #{firstName,jdbcType=VARCHAR},
+      last_name = #{lastName,jdbcType=VARCHAR},
+      job_title = #{jobTitle,jdbcType=VARCHAR},
+      organisation = #{organisation,jdbcType=VARCHAR},
+      country = #{country,jdbcType=VARCHAR},
+      province = #{province,jdbcType=VARCHAR},
+      city = #{city,jdbcType=VARCHAR},
+      user_unreg_time = #{userUnregTime,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  
+  <select id="selectUsers" resultMap="BaseResultMap">
+    select * 
+    from users
+    where 1 = 1
+    <if test="username != null">
+        and users.username = #{username,jdbcType=VARCHAR}
+    </if>
+    <if test="email != null">
+        and users.email = #{email,jdbcType=VARCHAR}
+    </if>
+  </select>
+  
+  <select id="selectUsersLogin" resultMap="BaseResultMap">
+    select *
+    from users
+    left join user_roles
+    on users.username = user_roles.username
+    where 1 = 1
+    <if test="username != null">
+   		and users.username = #{username,jdbcType=VARCHAR} 
+   	</if>	
+    <if test="roleName != null">
+        and roles.rolename = #{roleName,jdbcType=VARCHAR}
+    </if>	
+    <if test="userStatus != null">
+        and users.user_status = #{userStatus,jdbcType=VARCHAR}
+    </if>
+  </select> 
+</mapper>

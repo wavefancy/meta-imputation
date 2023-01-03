@@ -1,0 +1,948 @@
+2020-07-30 09:50:55,921 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-30 09:50:56,528 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-07-30 09:51:38,601 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:api:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\api\pom.xml.
+2020-07-30 09:51:38,626 [Worker-7: Updating Maven Dependencies] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:entity:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:52:17,811 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:entity:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:52:19,157 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:52:19,164 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:52:19,165 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:52:19,171 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:52:19,171 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:52:22,095 [Worker-14: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:config:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\config\pom.xml.
+2020-07-30 09:52:22,102 [Worker-14: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:interceptor:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:52:26,988 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:52:26,989 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 09:52:27,006 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-30 09:52:27,017 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:52:27,018 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:53:17,612 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-30 09:53:18,253 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-07-30 09:54:26,060 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:dao:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\dao\pom.xml.
+2020-07-30 09:54:26,076 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:entity:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:54:26,126 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:interceptor:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:54:28,067 [Worker-11: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:54:31,317 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:31,322 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:31,323 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 09:54:31,343 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:31,343 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:32,389 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:entity:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\entity\pom.xml.
+2020-07-30 09:54:35,363 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:api:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\api\pom.xml.
+2020-07-30 09:54:35,395 [Worker-11: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:54:36,602 [Worker-11: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:dao:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\dao\pom.xml.
+2020-07-30 09:54:36,615 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:interceptor:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:54:36,634 [Worker-11: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:54:36,634 [Worker-11: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:54:41,599 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:41,599 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:41,599 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:41,601 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:41,601 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:49,879 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:54:50,465 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:50,465 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:50,465 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:50,467 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:50,467 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:53,729 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:interceptor:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:54:53,742 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:54:53,742 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:54:54,457 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:54,458 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:54,459 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:54,460 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:54,461 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:58,024 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:58,026 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:58,026 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:58,028 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:54:58,029 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:54:58,828 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:exception:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\exception\pom.xml.
+2020-07-30 09:55:00,833 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:util:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:55:00,960 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:02,903 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:02,904 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:02,904 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 09:55:02,911 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:02,911 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:04,782 [Worker-4: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:util:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:55:04,793 [Worker-4: Download sources and javadoc] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:05,280 [Worker-4: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for demo:util:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact demo:util:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) [org.eclipse.m2e.core_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.10.0.20181127-2120.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2020-07-30 09:55:06,781 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:handle:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\handle\pom.xml.
+2020-07-30 09:55:07,944 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:util:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:55:08,122 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:08,123 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:55:10,100 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:10,100 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:10,100 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:10,102 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:10,102 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:10,641 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:interceptor:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\interceptor\pom.xml.
+2020-07-30 09:55:13,020 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:config:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\config\pom.xml.
+2020-07-30 09:55:13,046 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:55:13,954 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:dao:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\dao\pom.xml.
+2020-07-30 09:55:13,986 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:13,987 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:55:13,987 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:55:19,858 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:19,858 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:19,858 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:19,861 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:19,862 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:20,562 [Worker-5: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:service:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\service\pom.xml.
+2020-07-30 09:55:21,641 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for demo:util:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-07-30 09:55:21,807 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-07-30 09:55:21,808 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:55:21,808 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:55:21,808 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:21,808 [Worker-5: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:55:23,953 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:23,953 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:23,953 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:23,955 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:23,955 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:31,030 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:55:31,589 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:31,590 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 09:55:31,598 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-30 09:55:31,606 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:31,606 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:34,211 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:34,211 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:55:34,211 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:55:34,998 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:35,002 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:35,003 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 09:55:35,009 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:35,009 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:35,378 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:35,378 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:35,378 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:35,380 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:35,380 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:38,550 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:38,550 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:38,551 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:38,552 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:38,552 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:39,186 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:util:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\util\pom.xml.
+2020-07-30 09:55:40,584 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:41,877 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:exception:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\exception\pom.xml.
+2020-07-30 09:55:41,896 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:41,896 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:55:43,783 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:handle:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\handle\pom.xml.
+2020-07-30 09:55:43,807 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:43,808 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:55:43,808 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:55:45,035 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:service:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\service\pom.xml.
+2020-07-30 09:55:45,067 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-07-30 09:55:45,067 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:55:45,067 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:55:45,068 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:45,068 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:55:45,068 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:55:51,558 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:51,558 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:51,558 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:51,560 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:51,560 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:52,176 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:web:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\web\pom.xml.
+2020-07-30 09:55:53,736 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2020-07-30 09:55:53,738 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-07-30 09:55:53,739 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:55:53,740 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:55:53,740 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:55:53,740 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:55:53,741 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2020-07-30 09:55:53,741 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:55:56,173 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:56,173 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:56,174 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:55:56,175 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:55:56,175 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:01,852 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:01,853 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 09:56:01,855 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-30 09:56:01,858 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:01,859 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:04,079 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:56:04,079 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:56:04,644 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:04,644 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:04,645 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 09:56:04,650 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:04,650 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:06,833 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:56:06,834 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:56:06,834 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:56:07,371 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:07,371 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:07,372 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:07,373 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:07,373 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:09,889 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-07-30 09:56:09,889 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:56:09,889 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:56:09,889 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:56:09,889 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:56:09,889 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:56:10,440 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:10,440 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:10,441 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:10,442 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:10,442 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:12,524 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:56:13,067 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:13,068 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:13,068 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:13,069 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:13,069 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:16,377 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2020-07-30 09:56:16,377 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-07-30 09:56:16,377 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 09:56:16,377 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 09:56:16,378 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 09:56:16,378 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 09:56:16,378 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2020-07-30 09:56:16,378 [Worker-6: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 09:56:17,234 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:17,235 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:17,235 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:17,237 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:17,238 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:33,736 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:33,737 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:33,737 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:33,739 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:33,740 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:53,263 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:53,263 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:53,264 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 09:56:53,266 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 09:56:53,266 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:10:11,056 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-30 19:10:23,041 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-07-30 19:11:24,073 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-30 19:11:35,050 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-07-30 19:11:48,419 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:11:48,428 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:11:48,429 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:11:48,433 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:11:48,434 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:11:52,416 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 19:11:53,002 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:11:53,003 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:11:53,004 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:11:53,006 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:11:53,007 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:00,182 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:00,182 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:00,182 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:00,185 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:00,187 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:05,215 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 19:12:05,877 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:05,877 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 19:12:05,919 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-07-30 19:12:06,019 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:06,020 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:11,115 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 19:12:11,115 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 19:12:11,115 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 19:12:11,727 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:11,727 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:11,728 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 19:12:11,758 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:11,758 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:14,254 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 19:12:14,944 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:15,279 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:15,280 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:15,286 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:15,292 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:19,152 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 19:12:19,152 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 19:12:20,116 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:20,116 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:20,117 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-07-30 19:12:20,123 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:20,123 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:29,081 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-07-30 19:12:29,081 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-07-30 19:12:29,081 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-07-30 19:12:29,081 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 19:12:29,081 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 19:12:29,082 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 19:12:29,838 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:29,838 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:29,838 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:29,842 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:29,842 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:34,532 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-07-30 19:12:34,533 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-07-30 19:12:34,533 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-07-30 19:12:35,686 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:35,687 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:35,687 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-07-30 19:12:35,689 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-07-30 19:12:35,690 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:55:34,139 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-09-13 13:55:58,991 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:55:59,007 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:55:59,008 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:55:59,011 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:55:59,030 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:03,797 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:04,327 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:04,360 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:04,361 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:04,363 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:04,363 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:09,783 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:09,855 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:09,855 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:09,858 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:09,858 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:13,932 [Worker-9: reload maven project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:15,018 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:56:16,095 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:16,118 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-13 13:56:16,234 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-09-13 13:56:16,254 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:16,255 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:19,046 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:19,047 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:56:19,047 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:56:19,429 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:19,429 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:19,430 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-13 13:56:19,434 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:19,434 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:21,186 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:util:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\util\pom.xml.
+2020-09-13 13:56:22,672 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:22,672 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:56:23,596 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:exception:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\exception\pom.xml.
+2020-09-13 13:56:23,612 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:24,823 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:service:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\service\pom.xml.
+2020-09-13 13:56:24,866 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-09-13 13:56:24,867 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:56:24,867 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:56:24,868 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:24,868 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:56:27,344 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:handle:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\handle\pom.xml.
+2020-09-13 13:56:27,359 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:27,360 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-09-13 13:56:27,360 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:56:28,454 [Worker-1: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:web:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\web\pom.xml.
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-09-13 13:56:28,473 [Worker-1: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:37,511 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:37,511 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:37,512 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:37,514 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:37,514 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:42,975 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:42,975 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:56:43,283 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:43,285 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:43,286 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:43,287 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:43,288 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:44,151 [Worker-4: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:exception:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\exception\pom.xml.
+2020-09-13 13:56:45,361 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:47,185 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:47,186 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:47,186 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-13 13:56:47,225 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:47,226 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:50,397 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-09-13 13:56:50,398 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:56:50,398 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:56:50,398 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:50,398 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:56:50,712 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:50,712 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:50,712 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:50,714 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:50,714 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:52,734 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:56:52,734 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-09-13 13:56:52,734 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:56:53,092 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:53,092 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:53,092 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:56:53,094 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:56:53,094 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:57:00,952 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2020-09-13 13:57:00,953 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-09-13 13:57:00,953 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:57:00,953 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:57:00,953 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:57:00,953 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2020-09-13 13:57:00,953 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-09-13 13:57:00,953 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:57:01,262 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:57:01,262 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:57:01,263 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:57:01,264 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:57:01,264 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:58:11,400 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:58:11,401 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:58:11,401 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:58:11,402 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:58:11,403 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:58:13,285 [Worker-14: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:58:13,660 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:58:13,660 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:58:13,660 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:58:13,662 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:58:13,662 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:58:23,329 [Worker-3: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:web:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\web\pom.xml.
+2020-09-13 13:58:23,394 [Worker-3: Updating Maven Dependencies] ERROR o.e.m.c.i.p.r.ProjectRegistryRefreshJob - Resource '/web/pom.xml' does not exist.
+org.eclipse.core.internal.resources.ResourceException: Resource '/web/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:330) ~[na:na]
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:204) ~[na:na]
+	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:790) ~[na:na]
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:229) ~[na:na]
+	at org.eclipse.m2e.core.internal.markers.MavenMarkerManager.deleteMarkers(MavenMarkerManager.java:223) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.setupLifecycleMapping(ProjectRegistryManager.java:604) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:508) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$1(ProjectRegistryManager.java:489) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:488) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:89) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1$1.call(ProjectRegistryRefreshJob.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1332) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:87) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+Caused by: java.lang.Exception: Resource '/web/pom.xml' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42) ~[na:na]
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38) ~[na:na]
+	... 26 common frames omitted
+2020-09-13 13:58:52,534 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:api:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\api\pom.xml.
+2020-09-13 13:58:55,415 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:api:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\api\pom.xml.
+2020-09-13 13:58:56,130 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:58:56,196 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:58:57,455 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:58:58,760 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:58:58,761 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:59:01,320 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:59:01,321 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:59:01,321 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:59:02,619 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:59:04,662 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:59:04,662 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:59:04,662 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:59:04,663 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:59:04,663 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:59:05,954 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:config:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\config\pom.xml.
+2020-09-13 13:59:07,257 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:59:08,521 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:dao:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\dao\pom.xml.
+2020-09-13 13:59:08,614 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:59:08,614 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:59:08,614 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:59:10,187 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:service:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\service\pom.xml.
+2020-09-13 13:59:10,215 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-09-13 13:59:10,216 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:59:10,216 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:59:10,216 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:59:10,216 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:59:12,041 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:web:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\web\pom.xml.
+2020-09-13 13:59:12,085 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2020-09-13 13:59:12,086 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2020-09-13 13:59:12,086 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2020-09-13 13:59:12,086 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2020-09-13 13:59:12,086 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2020-09-13 13:59:12,086 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2020-09-13 13:59:12,086 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2020-09-13 13:59:12,086 [Worker-0: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:59:19,670 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:59:19,670 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-13 13:59:19,671 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-09-13 13:59:19,716 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-09-13 13:59:19,716 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-09-13 13:59:22,783 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:api:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\api\pom.xml.
+2020-09-13 13:59:24,048 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2020-09-13 13:59:24,527 [Worker-15: Updating Maven Dependencies] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob was canceled
+2021-06-07 15:48:54,801 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-07 17:21:01,358 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:entity:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\entity\pom.xml.
+2021-06-07 17:21:03,167 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:util:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\util\pom.xml.
+2021-06-07 17:21:03,235 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:03,236 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:03,794 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:handle:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\handle\pom.xml.
+2021-06-07 17:21:03,824 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:03,824 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:21:03,825 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:04,414 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:exception:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\exception\pom.xml.
+2021-06-07 17:21:04,466 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:04,914 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:api:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\api\pom.xml.
+2021-06-07 17:21:04,925 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:05,441 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:dao:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\dao\pom.xml.
+2021-06-07 17:21:05,477 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:05,478 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:05,478 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:05,969 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:service:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\service\pom.xml.
+2021-06-07 17:21:06,000 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:21:06,000 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:06,001 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:06,001 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:06,001 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:06,440 [Worker-26: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:web:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\web\pom.xml.
+2021-06-07 17:21:06,535 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2021-06-07 17:21:06,535 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:21:06,535 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:06,535 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:06,536 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:06,536 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2021-06-07 17:21:06,536 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:21:06,536 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:09,752 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:09,777 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:09,778 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:09,782 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:09,782 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:10,812 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:10,878 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:10,879 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:10,879 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:10,881 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:10,882 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:11,813 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:11,860 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:11,860 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:11,861 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-07 17:21:11,877 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:11,878 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:12,790 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:12,790 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:21:12,790 [Worker-26: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:12,829 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:12,830 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:12,830 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:12,832 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:12,832 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:15,029 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:15,032 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:15,033 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:15,035 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:15,035 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:15,736 [Worker-32: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:interceptor:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\interceptor\pom.xml.
+2021-06-07 17:21:17,067 [Worker-32: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:config:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\config\pom.xml.
+2021-06-07 17:21:17,093 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:17,512 [Worker-32: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:dao:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\dao\pom.xml.
+2021-06-07 17:21:17,536 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:17,536 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:17,536 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:18,008 [Worker-32: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:service:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\service\pom.xml.
+2021-06-07 17:21:18,046 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:21:18,046 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:18,047 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:18,047 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:18,047 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:19,395 [Worker-32: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:web:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\web\pom.xml.
+2021-06-07 17:21:19,428 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2021-06-07 17:21:19,428 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:21:19,428 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:19,429 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:19,429 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:19,429 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2021-06-07 17:21:19,429 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:21:19,429 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:20,659 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:20,659 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:20,659 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:20,661 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:20,661 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:22,050 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:22,104 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:22,105 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-07 17:21:22,145 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-07 17:21:22,167 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:22,167 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:23,800 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:23,800 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:23,801 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:23,847 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:23,848 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:23,848 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-07 17:21:23,873 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:23,873 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:24,858 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:21:24,859 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:24,859 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:24,859 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:24,860 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:24,898 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:24,898 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:24,898 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:24,899 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:24,900 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:25,891 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:25,891 [Worker-32: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:25,935 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:25,935 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:25,936 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:25,937 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:25,938 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:26,556 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:26,556 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:26,556 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:26,558 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:26,558 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:27,957 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:27,957 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:27,957 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:27,959 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:27,959 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:28,719 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:28,753 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:28,754 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-07 17:21:28,755 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-07 17:21:28,757 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:28,757 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:31,237 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:31,238 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:31,238 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:31,239 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:31,240 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:33,293 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2021-06-07 17:21:33,293 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:21:33,293 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:21:33,294 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:21:33,294 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:21:33,294 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2021-06-07 17:21:33,294 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:21:33,294 [Worker-29: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:21:33,338 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:33,339 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:33,339 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:21:33,340 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:21:33,340 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:13,077 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-06-07 17:45:15,187 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:api:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\api\pom.xml.
+2021-06-07 17:45:15,966 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:16,316 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:config:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\config\pom.xml.
+2021-06-07 17:45:16,330 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:16,567 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:dao:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\dao\pom.xml.
+2021-06-07 17:45:16,578 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:16,579 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:45:16,579 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:16,850 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:entity:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\entity\pom.xml.
+2021-06-07 17:45:17,092 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:exception:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\exception\pom.xml.
+2021-06-07 17:45:17,099 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:18,013 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:handle:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\handle\pom.xml.
+2021-06-07 17:45:18,028 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:18,029 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:45:18,029 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:18,221 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:interceptor:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\interceptor\pom.xml.
+2021-06-07 17:45:18,461 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:service:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\service\pom.xml.
+2021-06-07 17:45:18,472 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:45:18,473 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:45:18,473 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:18,473 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:18,473 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:18,683 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:util:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\util\pom.xml.
+2021-06-07 17:45:18,691 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:18,692 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:18,878 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: demo:web:0.0.1-SNAPSHOT @ E:\工程项目\工程模板\demo\web\pom.xml.
+2021-06-07 17:45:18,897 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2021-06-07 17:45:18,897 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:45:18,897 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:45:18,898 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:18,898 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:18,898 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2021-06-07 17:45:18,898 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:45:18,898 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:20,583 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api/src/main/java
+2021-06-07 17:45:20,584 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api/src/main/resources
+2021-06-07 17:45:20,584 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api/src/main/resources
+2021-06-07 17:45:20,584 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api/src/test/java
+2021-06-07 17:45:20,585 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api/src/test/resources
+2021-06-07 17:45:20,873 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config/src/main/java
+2021-06-07 17:45:20,873 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config/src/main/resources
+2021-06-07 17:45:20,874 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config/src/main/resources
+2021-06-07 17:45:20,874 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config/src/test/java
+2021-06-07 17:45:20,874 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /config/src/test/resources
+2021-06-07 17:45:21,071 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dao/src/main/java
+2021-06-07 17:45:21,072 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dao/src/main/resources
+2021-06-07 17:45:21,072 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dao/src/main/resources
+2021-06-07 17:45:21,072 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dao/src/test/java
+2021-06-07 17:45:21,072 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dao/src/test/resources
+2021-06-07 17:45:21,307 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /entity/src/main/java
+2021-06-07 17:45:21,307 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /entity/src/main/resources
+2021-06-07 17:45:21,307 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /entity/src/main/resources
+2021-06-07 17:45:21,307 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /entity/src/test/java
+2021-06-07 17:45:21,307 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /entity/src/test/resources
+2021-06-07 17:45:21,507 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exception/src/main/java
+2021-06-07 17:45:21,507 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exception/src/main/resources
+2021-06-07 17:45:21,507 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exception/src/main/resources
+2021-06-07 17:45:21,508 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /exception/src/test/java
+2021-06-07 17:45:21,508 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /exception/src/test/resources
+2021-06-07 17:45:21,753 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /handle/src/main/java
+2021-06-07 17:45:21,753 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /handle/src/main/resources
+2021-06-07 17:45:21,754 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /handle/src/main/resources
+2021-06-07 17:45:21,754 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /handle/src/test/java
+2021-06-07 17:45:21,754 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /handle/src/test/resources
+2021-06-07 17:45:22,028 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /interceptor/src/main/java
+2021-06-07 17:45:22,028 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /interceptor/src/main/resources
+2021-06-07 17:45:22,028 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /interceptor/src/main/resources
+2021-06-07 17:45:22,028 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /interceptor/src/test/java
+2021-06-07 17:45:22,028 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /interceptor/src/test/resources
+2021-06-07 17:45:22,188 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service/src/main/java
+2021-06-07 17:45:22,188 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service/src/main/resources
+2021-06-07 17:45:22,188 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service/src/main/resources
+2021-06-07 17:45:22,189 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /service/src/test/java
+2021-06-07 17:45:22,189 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /service/src/test/resources
+2021-06-07 17:45:22,430 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /util/src/main/java
+2021-06-07 17:45:22,430 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /util/src/main/resources
+2021-06-07 17:45:22,430 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /util/src/main/resources
+2021-06-07 17:45:22,431 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /util/src/test/java
+2021-06-07 17:45:22,431 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /util/src/test/resources
+2021-06-07 17:45:22,628 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web/src/main/java
+2021-06-07 17:45:22,628 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /web/src/main/resources
+2021-06-07 17:45:22,628 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /web/src/main/resources
+2021-06-07 17:45:22,628 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /web/src/test/java
+2021-06-07 17:45:22,629 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /web/src/test/resources
+2021-06-07 17:45:23,330 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2021-06-07 17:45:24,810 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:24,810 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:24,811 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:24,813 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:24,813 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:25,767 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:25,802 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:25,802 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:25,802 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:25,803 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:25,804 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:26,482 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:26,527 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:26,527 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:26,527 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-07 17:45:26,535 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:26,536 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:27,784 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:27,784 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:45:27,784 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:27,830 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:27,830 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:27,830 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:27,832 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:27,832 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:28,666 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:28,666 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:28,666 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:28,667 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:28,668 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:29,380 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:29,424 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:29,424 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-07 17:45:29,431 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-07 17:45:29,436 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:29,436 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:30,119 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:30,119 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:45:30,119 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:30,152 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:30,152 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:30,153 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-07 17:45:30,155 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:30,155 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:30,919 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:45:30,919 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:45:30,919 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:30,919 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:30,919 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:30,954 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:30,954 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:30,955 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:30,959 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:30,959 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:32,249 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:32,249 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:32,283 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:32,284 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:32,284 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:32,285 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:32,285 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:33,062 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2021-06-07 17:45:33,062 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 17:45:33,062 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 17:45:33,062 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 17:45:33,062 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:33,062 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2021-06-07 17:45:33,062 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:45:33,063 [Worker-41: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:33,099 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:33,099 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:33,099 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:33,100 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:33,100 [Worker-41: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:34,992 [Worker-36: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 17:45:34,992 [Worker-36: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 17:45:34,992 [Worker-36: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 17:45:35,028 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:35,029 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:35,029 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:35,030 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:35,030 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:35,291 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:35,291 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:35,291 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:35,294 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-07 17:45:35,294 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-07 17:45:52,621 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier null to /service/target/classes
+2021-06-07 17:45:52,621 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier null to /dao/target/classes
+2021-06-07 17:45:52,622 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier null to /config/target/classes
+2021-06-07 17:45:52,622 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier null to /interceptor/target/classes
+2021-06-07 17:45:52,622 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier null to /exception/target/classes
+2021-06-07 17:45:52,622 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier null to /handle/target/classes
+2021-06-07 17:45:52,622 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-06-07 17:45:52,622 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier null to /entity/target/classes
+2021-06-07 17:45:52,724 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier null to /service/target/classes
+2021-06-07 17:45:52,724 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier null to /dao/target/classes
+2021-06-07 17:45:52,724 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier null to /config/target/classes
+2021-06-07 17:45:52,724 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier null to /interceptor/target/classes
+2021-06-07 17:45:52,725 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier null to /exception/target/classes
+2021-06-07 17:45:52,725 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier null to /handle/target/classes
+2021-06-07 17:45:52,725 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier null to /util/target/classes
+2021-06-07 17:45:52,725 [Worker-39: Launching web - DemoApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier null to /entity/target/classes
+2021-06-07 17:49:53,347 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-06-07 18:13:42,221 [Worker-15: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 21:23:26,559 [Worker-24: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 21:23:26,559 [Worker-24: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 21:23:26,559 [Worker-24: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 21:25:55,162 [Worker-22: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 21:25:55,163 [Worker-22: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 21:25:55,164 [Worker-22: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 21:25:55,164 [Worker-22: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 21:25:55,164 [Worker-22: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 21:27:26,126 [Worker-22: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 21:27:26,126 [Worker-22: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 21:28:47,922 [Worker-27: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 21:31:27,522 [Worker-28: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-07 21:31:27,522 [Worker-28: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-07 21:31:27,522 [Worker-28: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-09 15:05:11,192 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-06-09 15:05:31,424 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:31,452 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:31,454 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:31,458 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:31,459 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:33,984 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-09 15:05:34,164 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:34,165 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:34,165 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:34,168 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:34,188 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:35,925 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-09 15:05:36,001 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:36,001 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:36,002 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-09 15:05:36,046 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:36,046 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:37,889 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:37,890 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:37,890 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:37,892 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:37,892 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:41,129 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-09 15:05:41,205 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:41,206 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-09 15:05:41,219 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2021-06-09 15:05:41,310 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:41,311 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:43,331 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-09 15:05:43,331 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-09 15:05:43,332 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-09 15:05:43,439 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:43,439 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:43,439 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-09 15:05:43,470 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:43,470 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:45,263 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-09 15:05:45,263 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-09 15:05:45,263 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-09 15:05:45,264 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-09 15:05:45,264 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-09 15:05:45,361 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:45,361 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:45,361 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:45,364 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:45,364 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:47,785 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-09 15:05:47,786 [Worker-4: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-09 15:05:47,869 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:47,869 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:47,869 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:47,873 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:47,873 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:51,740 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-09 15:05:51,745 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-09 15:05:51,745 [Worker-12: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-09 15:05:51,858 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:51,858 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:51,858 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:51,860 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:51,860 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:57,442 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:57,448 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:57,454 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-06-09 15:05:57,458 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:57,459 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:58,745 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/service: demo:service:0.0.1-SNAPSHOT with classifier  to /service/target/classes
+2021-06-09 15:05:58,745 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/dao: demo:dao:0.0.1-SNAPSHOT with classifier  to /dao/target/classes
+2021-06-09 15:05:58,745 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/config: demo:config:0.0.1-SNAPSHOT with classifier  to /config/target/classes
+2021-06-09 15:05:58,746 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/interceptor: demo:interceptor:0.0.1-SNAPSHOT with classifier  to /interceptor/target/classes
+2021-06-09 15:05:58,746 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/exception: demo:exception:0.0.1-SNAPSHOT with classifier  to /exception/target/classes
+2021-06-09 15:05:58,746 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/handle: demo:handle:0.0.1-SNAPSHOT with classifier  to /handle/target/classes
+2021-06-09 15:05:58,746 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/util: demo:util:0.0.1-SNAPSHOT with classifier  to /util/target/classes
+2021-06-09 15:05:58,746 [Worker-16: Building workspace] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entity: demo:entity:0.0.1-SNAPSHOT with classifier  to /entity/target/classes
+2021-06-09 15:05:58,812 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:58,812 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:58,813 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-06-09 15:05:58,820 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-06-09 15:05:58,820 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

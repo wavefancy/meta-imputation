@@ -7,6 +7,7 @@ import doCookie from "@/utils/cookie"
 axios.defaults.timeout = 50000
 axios.defaults.baseURL = process.env.VUE_APP_BASE_API
 axios.defaults.headers.post['Content-Type'] = 'application/json charset=UTF-8'
+// axios.defaults.withCredentials=false
 //请求拦截器：携带的token字段
 axios.interceptors.request.use(
   config => {

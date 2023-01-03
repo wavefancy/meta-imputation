@@ -1,0 +1,4 @@
+javac.sh
+my_interceptor/OneInterceptor.class
+org.codehaus.plexus.compiler.javac.JavacCompiler1252037377591588637arguments
+my_interceptor/TwoInterceptor.class

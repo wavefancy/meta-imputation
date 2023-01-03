@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="interceptor"/>
+<aop-project name="api"/>
+<aop-project name="handle"/>
+<aop-project name="config"/>
+<aop-project name="dao"/>
+<aop-project name="exception"/>
+<aop-project name="service"/>
+<aop-project name="web"/>
+<aop-project name="util"/>
+<aop-project name="entity"/>
+</aop-reference-model>
