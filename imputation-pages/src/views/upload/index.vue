@@ -12,16 +12,16 @@
             <div class="row" style="margin: 0.5rem 0rem;">
               <div class="des"><b>Name:</b></div>
               <div class="col-xl-3 col-sm-6 input-group-sm input-group-inline">
-                <input type="text" class="form-control" v-model.trim="fileName" ref="fileName" @blur="checkName"/>
+                <input type="text" class="form-control" v-model.trim="fileName" ref="fileName" @blur="checkName" style="border: 1px solid #ced4da;"/>
               </div>
             </div>
             <div class="row" style="margin:  0.5rem  0rem;">
               <div class="des"><b>Description:</b></div>
               <div class="col-xl-3 col-sm-6 input-group-sm input-group-inline">
-                <input type="text" class="form-control" v-model.trim="descrition" ref="descrition"/>
+                <input type="text" class="form-control" v-model.trim="descrition" ref="descrition" style="border: 1px solid #ced4da;"/>
               </div>
             </div>
-            <VueSimpleUploader :fileName="fileName" :descrition="descrition" attr=".gz" type="GWAS"></VueSimpleUploader>
+            <VueSimpleUploader :fileName="fileName" :descrition="descrition" attr=".gz" ></VueSimpleUploader>
           </div>
         </div>
         <div class="vstack gap-6 mt-3">
@@ -38,12 +38,11 @@
                     <th scope="col-xl-5 col-sm-5">Descrition</th>
                     <th scope="col-xl-2 col-sm-2">Upload Date</th>
                     <th scope="col-xl-1 col-sm-1">Status</th>
-                    <th scope="col-xl-2 col-sm-2">Delete Date</th>
                     <th scope="col-xl-1 col-sm-1">operation</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="file in files.fileList" :key="file.id">  
+                  <tr v-for="file in files.fileList" :key="file.fileId">  
                     <td>
                       <div class="d-flex align-items-center">
                         {{file.fileName}}
@@ -51,30 +50,25 @@
                     </td>
                     <td>
                       <div class="d-flex align-items-center">
-                        {{file.descrition}}
+                        {{file.desc}}
                       </div>
                     </td>
                     <td>
                       <div class="d-flex align-items-center">
-                        {{file.uploadDate}}
+                        {{file.uploadTime}}
                       </div>
-                      </td>
+                    </td>
                     <td>
                         <div class="d-flex align-items-center">
                             {{file.status}} 
-                            <el-tooltip class="item" effect="light" placement="right" v-if="file.status === 'validity'">
+                            <!-- <el-tooltip class="item" effect="light" placement="right" >
                               <div slot="content">The file is valid for 30 days. <br/>Click Refresh to extend the current time by 30 days !</div>
                               <img :src="hintUrl" style="width: 1rem;">
-                            </el-tooltip>
+                            </el-tooltip> -->
                         </div>
                     </td>
                     <td>
-                      <div class="d-flex align-items-center">
-                        {{file.deleteDate}}
-                      </div>
-                    </td>
-                    <td>
-                      <a href="#" class="btn btn-sm btn-neutral operate" :class=" file.status==='refreshed'? 'refreshed':'' " @click.prevent="extensionFileValidTime(file.id,file.status)">Refresh</a>
+                      <!-- <a href="#" class="btn btn-sm btn-neutral operate" :class=" file.status==='refreshed'? 'refreshed':'' " @click.prevent="extensionFileValidTime(file.id,file.status)">Refresh</a>
                       <button
                         type="button"
                         class="
@@ -85,22 +79,22 @@
                         @click="deleteFile(file.id,file.identifier)"
                       >
                         <i class="bi bi-trash"></i>
-                      </button>
+                      </button> -->
+                      <b-button variant="danger" @click="deleteFile(file.fileId)" style="background-color: #f36!important;border-color: #f36!important;">delete</b-button>
                     </td>
                   </tr>
                 </tbody>
               </table>
               <div class="pagination">
-                <!-- <el-pagination
+                <el-pagination
                   @current-change="changePage"
                   @size-change="handleSizeChange"
                   :current-page="currentPage"
                   :background="true"
-                  layout="sizes, prev, pager, next"
+                  layout=" prev, pager, next"
                   :total="total"
-                  :page-sizes="[5, 10, 15, 20]"
                   :page-size="pageSize">
-                </el-pagination> -->
+                </el-pagination>
               </div>
             </div>
           </div>
@@ -111,7 +105,7 @@
 </template>
 
 <script>
-  import {Prs} from "@/api"
+  import {fileInterface} from "@/api"
   import { isEmpty }  from "@/utils/validate"
   
   import VueSimpleUploader from '@/components/VueSimpleUploader'
@@ -128,64 +122,28 @@
                 ]
             },
             type:"GWAS",
-            fileSize:'',
             descrition:'',
             fileName:'',
-            progress:0,
-            progressVisible:false,
-            colorClass:'bg-success',
-            uplodMsg:"",
             hintUrl:"./img/hint.png",
             total:0,
-            pageSize:3,
+            pageSize:10,
             currentPage:1
         }
     },
     methods: {
-      fileChange(data){
-        
-        let formData = new FormData();
-        formData.append('fileType',this.type)
-        formData.append('descrition',this.descrition)
-        formData.append('fileName',this.fileName)
-        formData.append('filePath',data.filePath)
-        formData.append('suffixName',data.suffixName)
-        formData.append('identifier',data.identifier)
-
-        Prs.savePrsFileInfo(formData).then(response => {
-          const resData = response
-          const code = resData.code;
-          if(code === 0){
-            const innerData = resData.data;
-            const msg = innerData.msg;
-            if(innerData.code === 0){
-              this.fileName=""
-              this.descrition=""
-              //刷新table
-              this.getFileList(this.currentPage,this.pageSize)
-              return true;
-            }else{
-              //提示框
-              this.$MessageBox.alert(msg, 'Message', {
-                confirmButtonText: 'OK',
-                callback: () => {
-                }
-              })
-              return false;
-            }
-          }else{
-            this.$MessageBox.alert('System is busy, please try again later !', 'Message', {
-                confirmButtonText: 'OK',
-                callback: () => {
-                }
-              })
-              return false;
+      getFileList(currentPage ){
+        this.currentPage = currentPage
+        let subData = {
+          pageNum:currentPage-1
+        }
+        fileInterface.fileSelect(subData).then((response) => {
+          let code = response.code
+          if(code === "0" || code === 0){
+            const resData = response.data;
+            this.files.fileList=resData.fileList;
+            this.total = resData.total
           }
-
         })
-      },
-      getFileList( ){
-      
        
       },
       checkName(){
@@ -211,76 +169,47 @@
         }
       },
       //删除文件
-      deleteFile(id,identifier){
-        let subData = {
-          fileId:id,
-          identifier:identifier,
-        }
-        Prs.deleteFile(subData).then(response => {
-          if(response.code===0){
-            const resData = response.data;
-            if(resData.code===0){
-              this.$message({
-                message: "successful delete !",
-                type: 'success',
-                duration: 2 * 1000
-              })
-              this.getFileList(this.currentPage,this.pageSize);
-            }
-          }
-        })
-      },
-      //延长文件有效时间
-      extensionFileValidTime(id,status){
-        if(status==="refreshed"){
-          return false;
-        }
+      deleteFile(id){
         let subData = {
           fileId:id,
         }
-        Prs.extensionFileValidTime(subData).then(response => {
-          if(response.code===0){
-            const resData = response.data;
-            if(resData.code===0){
-               this.$message({
-                message: "successful validity !",
-                type: 'success',
-                duration: 2 * 1000
-              })
-              this.getFileList(this.currentPage,this.pageSize);
-            }
+        fileInterface.fileDelete(subData).then(response => {
+          if(response.code==0){
+            // this.$message({
+            //   message: "successful delete !",
+            //   type: 'success',
+            //   duration: 2 * 1000
+            // })
+            this.getFileList(this.currentPage);
           }
         })
       },
       //翻页
       changePage(val){
         this.currentPage = val
-        this.getFileList(this.currentPage,this.pageSize)
+        this.getFileList(this.currentPage)
       },
       handleSizeChange(val){
         this.pageSize = val
-        this.getFileList(this.currentPage,this.pageSize)
+        this.getFileList(this.currentPage)
       }
     },
     //数据初始化
     mounted(){
       
       //为总线绑定函数
-      this.$bus.$on('fileChange',this.fileChange)
-      this.getFileList(this.currentPage,this.pageSize);
+      this.$bus.$on('getFileList',this.getFileList)
+      // this.$bus.$on('fileChange',this.fileChange)
+      this.getFileList(this.currentPage);
     },
     watch: {
       type:{
          // 数据发生变化就会调用这个函数  
           handler() {
-            this.getFileList(this.currentPage,this.pageSize);
-            this.fileSize=''
+            // this.getFileList(this.currentPage,this.pageSize);
             this.descrition=''
             this.fileName=''
-            this.progress=0
-            this.progressVisible=false
-            this.colorClass='bg-success'
-            this.uplodMsg=""
+          
           },
           // 立即处理 进入页面就触发
           immediate: true

@@ -13,7 +13,7 @@
       class="">
       <uploader-unsupport></uploader-unsupport>
       <uploader-drop class="d-flex justify-content-center px-5 py-5">
-            <uploader-btn :attrs="attrs"
+            <uploader-btn :attrs="attrs" id="upFlie"
               class="position-absolute w-full h-full top-0 start-0 cursor-pointer">
             </uploader-btn>
             <div class="text-center">
@@ -41,7 +41,7 @@ const CHUNK_SIZE = 20 * 1024 * 1024
 
   export default {
     name:"VueSimpleUploader",
-    props: ['fileName','attr','type','descrition'],
+    props: ['fileName','attr','descrition'],
     data () {
       return {
         options: {
@@ -51,6 +51,8 @@ const CHUNK_SIZE = 20 * 1024 * 1024
           testChunks: true,
           // 分片大小
           chunkSize: CHUNK_SIZE,
+          //是否强制所有的块都是小于等于 chunkSize 的值。默认是 false
+          forceChunkSize:true,
           // 并发上传数，默认为 3 
           simultaneousUploads: 3,
           //设置header
@@ -60,9 +62,10 @@ const CHUNK_SIZE = 20 * 1024 * 1024
           query:{
             fileId: null,
             // fileNameInput:""
+            chunkIdentifier:""
           },
           //单文件上传
-          singleFile: true,
+          singleFile: false,
           /**
            * 判断分片是否上传，秒传和断点续传基于此方法
            */
@@ -96,7 +99,6 @@ const CHUNK_SIZE = 20 * 1024 * 1024
         uploadIdInfo: null,
         uploadFileList: [],
         fileChunkList: [],
-        fileType:this.type,
         desc:""
       }
     },
@@ -110,19 +112,12 @@ const CHUNK_SIZE = 20 * 1024 * 1024
               this.attrs.accept = val;
             }
         },
-        'fileType':function(val){
-            this.fileType = val
-        },
         'descrition':function(val){
           this.desc = val
         }
     },
     methods: {
       onFileAdded(file) {
-
-
-        // 有时 fileType为空，需截取字符
-        console.log('文件类型：' + file.fileType)
         // 文件大小
         console.log('文件大小：' + file.size + 'B')
         // 1. todo 判断文件类型是否允许上传
@@ -136,7 +131,7 @@ const CHUNK_SIZE = 20 * 1024 * 1024
             file.name = fileName1
         }
 
-        let totalChunksM = Math.floor(file.size / CHUNK_SIZE)
+        let totalChunksM = Math.ceil(file.size / CHUNK_SIZE)
 
         this.getFileMD5(file, md5 => {
           if (md5 != '') {
@@ -149,6 +144,7 @@ const CHUNK_SIZE = 20 * 1024 * 1024
               fileName: file.name,
               localPath: file.relativePath,
               totalChunks: totalChunksM == 0 ? 1:totalChunksM,
+
               desc: this.desc ,
               OS : "linux",
             }
@@ -163,10 +159,6 @@ const CHUNK_SIZE = 20 * 1024 * 1024
             
           }
         })
-         
-         
-
-        
       },
       onFileSuccess(rootFile, file, response, chunk) {
         console.log("上传成功")
@@ -175,18 +167,19 @@ const CHUNK_SIZE = 20 * 1024 * 1024
 
         
         const data = resJaon.data
+        console.log("data="+data)
 
-        if(!isEmpty(data)){
-          const flag = data.flag
-          if(flag){
+        // if(!isEmpty(data)){
+        //   const flag = data.flag
+        //   if(flag){
             //触发总线绑定的fileChange函数
-            this.$bus.$emit('fileChange',data)
-          }
-        }
+            this.$bus.$emit('getFileList',1)
+        //   }
+        // }
 
       },
       onFileComplete(rootFile){
-        console.log(rootFile)
+        console.log("onFileComplete"+rootFile)
         console.log("上传成功Complete")
       },
       onFileError(rootFile, file, message, chunk) {
@@ -255,7 +248,13 @@ const CHUNK_SIZE = 20 * 1024 * 1024
         .catch(err => {
             console.error(err)
         })
-    }
+     }
+    },
+    //数据初始化
+    mounted(){
+      
+      //为总线绑定函数
+      // this.$bus.$on('addfile',this.addfile)
     }
   }
 </script>

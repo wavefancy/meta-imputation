@@ -9,7 +9,9 @@ export default {
 		return v ? v[2] : null;
 	},
 	delCookie: name =>{
-		this.setCookie(name, '', -1); //将时间设置为过去时，立即删除cookie
+		var d = new Date;
+		d.setTime(d.getTime() + 24*60*60*1000*(-1));//将时间设置为过去时，立即删除cookie
+		window.document.cookie = name + "=" + "" + ";path=/;expires=" + d.toGMTString();
 	}
 
 }

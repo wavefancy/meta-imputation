@@ -12,7 +12,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 //上传组件
 import uploader from 'vue-simple-uploader'
 
-// import {Pagination  } from 'element-ui'
+import {Pagination  } from 'element-ui'
+import lang from 'element-ui/lib/locale/lang/en'
+import locale from 'element-ui/lib/locale'
+
+// 设置Element语言
+locale.use(lang)
 
 Vue.use(uploader)
 
@@ -22,7 +27,8 @@ Vue.use(BootstrapVue)
 
 Vue.use(IconsPlugin)
 
-// Vue.use(Pagination)
+Vue.use(Pagination)
+
 new Vue({
   render: h => h(App),
   //需要把router进行注册

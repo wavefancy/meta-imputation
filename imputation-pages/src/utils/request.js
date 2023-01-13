@@ -1,8 +1,9 @@
 import axios from 'axios'
-import { Message } from 'element-ui'
+import { MessageBox  } from 'element-ui'
 // import store from '@/store'
 
 import doCookie from "@/utils/cookie"
+import router from '@/router'
 
 axios.defaults.timeout = 50000
 axios.defaults.baseURL = process.env.VUE_APP_BASE_API
@@ -45,16 +46,33 @@ axios.interceptors.response.use(
     if(status === "200" || status === 200){
       return res.data
     }else{
-      //接口错误处理，跳转错误页面
+      //todo
     }
   },
   error => {
-    console.log('err' + error) // for debug
-    Message({
-      message: error.message,
-      type: 'error',
-      duration: 5 * 1000
-    })
+    console.log('err=' + error) // for debug
+    //删除cookie
+    doCookie.delCookie("imputation-cookie")
+    doCookie.delCookie("imputation-username")
+    // MessageBox.alert('The login status is invalid, please log in again', 'prompt', {
+    //   confirmButtonText: 'ok',
+    //   callback: action => {
+    //     console.log("action="+action)
+    //     //删除cookie
+    //     doCookie.delCookie("imputation-cookie")
+    //     doCookie.delCookie("imputation-username")
+    //     router.push({
+    //         name:'login'
+    //     });
+    //   }
+    // });
+    
+    
+    // Message({
+    //   message: error.message,
+    //   type: 'error',
+    //   duration: 5 * 1000
+    // })
     return Promise.reject(error)
   }
 )

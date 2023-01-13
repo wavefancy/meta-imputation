@@ -111,6 +111,7 @@
 
 <script>
 import  {user} from '@/api'
+import { MessageBox  } from 'element-ui'
 import { checkEmail,checkPassword,isEmpty }  from "@/utils/validate"
 export default {
     name:'register',
@@ -191,7 +192,17 @@ export default {
         user.register(subData).then((response) => {
             const data = response
             console.log(data);
-            this.signIn();
+            let code = data.code
+            if(code == 0 || code == "0"){
+                MessageBox.alert('The registration succeeds and the login page is displayed', 'prompt', {
+                    confirmButtonText: 'ok',
+                    callback: action => {
+                        console.log("action="+action)
+                        this.signIn();
+                    }
+                });
+            }
+            
         })
         // let res = register(subData);
         // console.log(res)

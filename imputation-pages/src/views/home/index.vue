@@ -20,8 +20,8 @@
           </p> 
             <p>
               <br>
-              <a class="btn btn-lg btn-success" href="/#!pages/register">Sign up now</a>&nbsp;
-              <a class="btn btn-lg btn-outline-light" href="/#!pages/login">Login</a>
+              <router-link class="btn btn-lg btn-success"  to="/register">Sign up now</router-link>&nbsp;
+              <router-link class="btn btn-lg btn-outline-light" to="/login">Login</router-link>
             </p>
         </div>
       </div>

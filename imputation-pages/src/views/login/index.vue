@@ -62,13 +62,16 @@ export default {
                     this.$bus.$emit('setLoginVal',true,username)
                     let data = response.data
                     if(!isEmpty(data)){
-                        doCookie.setCookie("imputation-cookie",data,1)
-                        doCookie.setCookie("imputation-username",username,1)
+                        doCookie.setCookie("imputation-cookie",data,15)
+                        doCookie.setCookie("imputation-username",username,15)
                     }
                     //跳转home页
                     this.$router.push({
                         name:'home'
                     });
+                }else{
+                    doCookie.delCookie("imputation-cookie" )
+                    doCookie.delCookie("imputation-username" )
                 }
             })
         },
@@ -84,6 +87,7 @@ export default {
             })
             .then(value => {
                 this.box = value
+                console.log("value="+value)
             })
             .catch(err => {
                 console.error(err)
