@@ -1,0 +1,35 @@
+server:
+  port: 9080
+spring:
+  datasource:
+    #驱动
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.103.140.193:3307/cloudimpute?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: qwe@11
+  servlet:
+    # 本地文件上传：最大支持文件大小
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+      enabled: true
+      resolve-lazily: false
+  #配置rabbitmq
+  rabbitmq:
+    host: 39.103.140.193
+    port: 5672
+    username: admin
+    password: 123
+    virtual-host: /
+    #发布消息成功到交换器后会触发回调方法
+    publisher-confirm-type: correlated
+    #消息无法路由时，开启消息回退
+    publisher-returns: true
+
+#控制台打印sql
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#debug: true
+
+

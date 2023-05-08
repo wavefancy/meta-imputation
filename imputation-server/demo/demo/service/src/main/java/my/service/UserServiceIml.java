@@ -101,6 +101,7 @@ public class UserServiceIml implements UserService {
         	subject.checkRole(role);
         }
         catch (Exception e) {
+
 			throw new MyException(ResultEnum.ACCESS_FAILURE);
 		}
         String username = subject.getPrincipal().toString();

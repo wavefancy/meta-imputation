@@ -1,25 +1,31 @@
 <template>
 <b-container class="bv-example-row">
-  <div class="container page mt p-5" style=""><h2>Sign in</h2>
-    <br>
-    <div class="form-group">
-        <label for="loginUsername" class="control-label">Username:</label>
-        <input id="loginUsername" name="loginUsername" type="text" class="form-control col-sm-3" v-model="form.username" ref="username" >
-    </div>
-
-    <div class="form-group">
-        <label for="loginPassword" class="control-label">Password:</label>
-        <input id="loginPassword" name="loginPassword" type="password" class="form-control col-sm-3" v-model="form.password" ref="password">
-        <div class="invalid-feedback">
-        This parameter is required.
+  <div class="container page mt p-5" style="">
+        <h2>Sign in</h2>
+        <br>
+        <div class="form-group">
+            <label for="loginUsername" class="control-label">Username:</label>
+            <input id="loginUsername" name="loginUsername" type="text" class="form-control col-sm-3" v-model="form.username" ref="username" >
         </div>
-    </div>
-    <div class="form-group">
-        <button class="btn  btn-primary"   @click="signIn">Sign in</button>
-    </div>
-    <br>
-    <p>New user? <router-link  to="/register">Sign up for free</router-link></p>
-    </div>
+    
+        <div class="form-group">
+            <label for="loginPassword" class="control-label">Password:</label>
+            <input id="loginPassword" name="loginPassword" type="password" class="form-control col-sm-3" v-model="form.password" ref="password">
+            <div class="invalid-feedback">
+            This parameter is required.
+            </div>
+        </div>
+        <div class="form-group">
+            <button v-if="!isLoad" class="btn  btn-primary"   @click="signIn">Sign in</button>
+            <b-button v-if="isLoad" variant="primary" disabled>
+                <b-spinner small type="grow"></b-spinner>
+                Loading...
+            </b-button>
+        </div>
+        <br>
+        <p>New user? <router-link  to="/register">Sign up for free</router-link></p>
+ </div>
+ 
 </b-container>
 </template>
 
@@ -35,7 +41,8 @@ export default {
                 username:'',
                 password:''
             },
-            box:""
+            box:"",
+            isLoad:false
         }
     },
     methods: {
@@ -55,6 +62,7 @@ export default {
                 username:username,
                 password:this.form.password
             }
+            this.isLoad = true
             user.login(subData).then((response) => {
                 let code = response.code
                 if(code === "0" || code === 0){
@@ -65,6 +73,7 @@ export default {
                         doCookie.setCookie("imputation-cookie",data,15)
                         doCookie.setCookie("imputation-username",username,15)
                     }
+                    this.isLoad = false
                     //跳转home页
                     this.$router.push({
                         name:'home'

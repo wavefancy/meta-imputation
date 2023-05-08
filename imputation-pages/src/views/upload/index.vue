@@ -339,6 +339,10 @@
 tbody, td, tfoot, th, thead, tr {
     border: 0 solid;
     border-color: inherit;
+   
+}
+td{
+ vertical-align: middle !important;
 }
 th {
     font-weight: 500;

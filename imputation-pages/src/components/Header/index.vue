@@ -10,7 +10,7 @@
         <b-navbar-nav align="center">
           <b-nav-item to="/home">Home</b-nav-item>
           <b-nav-item to="/upload" v-show="isLogin" >Upload</b-nav-item>
-          <b-nav-item to="#" v-show="isLogin" >Run</b-nav-item>
+          <b-nav-item to="/run" v-show="isLogin" >Run</b-nav-item>
           <b-nav-item to="#" v-show="isLogin" >Jobs</b-nav-item>
           <b-nav-item to="#" >Help</b-nav-item>
           <b-nav-item to="#" >Contact</b-nav-item>
