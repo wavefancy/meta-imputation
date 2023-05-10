@@ -27,15 +27,13 @@ public class JobsServiceImpl implements JobsService {
      */
     @Value("${cromwell.workflows.run.url}")
     private String cromwellUrl;
+    @Value("${imputation.wdl.path}")
+    private String wdlPath;
     @Value("${temporary.file.path}")
     private String temporaryFilePath;
     @Override
     public String submitWorkflow(JobsDTO jobsDTO) throws Exception {
         log.info("提交工作流开始algorithmsParameterDTO="+ JSON.toJSONString(jobsDTO));
-
-        //wdl脚本地址
-        String wdlPath = jobsDTO.getWdlPath();
-
 
         //参数临时文件地址
         String inputFilePath = temporaryFilePath+System.currentTimeMillis()+"_inputFile.json";

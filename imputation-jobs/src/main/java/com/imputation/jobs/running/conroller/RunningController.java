@@ -1,16 +1,15 @@
 package com.imputation.jobs.running.conroller;
 
+import com.alibaba.fastjson.JSONObject;
 import com.imputation.jobs.commons.BaseResult;
 import com.imputation.jobs.rabbitmq.dto.MQMessageDTO;
 import com.imputation.jobs.rabbitmq.service.ProducerService;
 import com.imputation.jobs.running.dto.JobReqDTO;
-import com.imputation.jobs.running.dto.JobResDTO;
 import com.imputation.jobs.running.dto.JobsDTO;
-import com.imputation.jobs.running.service.RunningService;
+import com.imputation.jobs.running.service.JobsService;
 import com.imputation.jobs.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,7 +33,7 @@ public class RunningController {
     private static final String IMPUTATION_JOB_SUBMIT_ROUTING_KEY = "imputation.job.submit.result";
 
     @Autowired
-    private RunningService runningService;
+    private JobsService jobsService;
 
     @Autowired
     private ProducerService producerService;
@@ -47,12 +46,15 @@ public class RunningController {
 
         //job数据落库
         JobsDTO jobsDTO = toJobsDTO(jobReqDTO);
-        runningService.saveOrUpdateJob(jobsDTO);
+        jobsService.saveOrUpdateJob(jobsDTO);
 
+        JSONObject jsonObject = JSONObject.parseObject(jobReqDTO.getJobJson());
+        String[] strs = {"21", "22"};
+        jsonObject.put("Imputation.contigs",strs);
         //发送消息到Cromwell
-        Map<String,String> resMsg = new HashMap<>();
+        JSONObject  resMsg = new JSONObject();
         resMsg.put("userName",jobReqDTO.getUserName());
-        resMsg.put("jobJson",jobReqDTO.getJobJson());
+        resMsg.put("jobJson",jsonObject.toJSONString());
         resMsg.put("jobName",jobReqDTO.getJobName());
         String messageId = UUID.randomUUID().toString();
         //当前系统时间
@@ -87,6 +89,8 @@ public class RunningController {
         if(StringUtils.isNotEmpty(userName)){
             jobsDTO.setUserName(userName);
         }
+
+        jobsDTO.setStatus(0);
 
         //当前系统时间
         LocalDateTime now = LocalDateTime.now();

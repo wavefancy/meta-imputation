@@ -45,8 +45,4 @@ public class JobsDTO implements Serializable {
      * 运行状态 3:Finish, 2:error ,1:In progress,0:Not started
      */
     private Integer status;
-    /**
-     * 执行wdl的脚本地址
-     */
-    private String wdlPath;
 }

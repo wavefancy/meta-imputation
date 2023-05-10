@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.imputation.jobs.practice.bo.JobsBo;
 import com.imputation.jobs.practice.entity.Jobs;
 import com.imputation.jobs.running.dto.JobsDTO;
-import com.imputation.jobs.running.service.RunningService;
+import com.imputation.jobs.running.service.JobsService;
 import com.imputation.jobs.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
@@ -23,7 +23,7 @@ import java.util.List;
  */
 @Service
 @Slf4j
-public class RunningServiceImpl implements RunningService {
+public class JobsServiceImpl implements JobsService {
     @Autowired
     private JobsBo jobsBo;
 
@@ -46,6 +46,9 @@ public class RunningServiceImpl implements RunningService {
         }
         if(StringUtils.isNotEmpty(jobsDTO.getUserName())){
             updateWrapper.eq("user_name",jobsDTO.getUserName());
+        }
+        if(StringUtils.isNotEmpty(jobsDTO.getWorkflowExecutionUuid())){
+            updateWrapper.eq("workflow_execution_uuid",jobsDTO.getWorkflowExecutionUuid());
         }
         boolean flag = jobsBo.saveOrUpdate(jobs,updateWrapper);
         log.info("保存或修改job数据出参：{}", flag);

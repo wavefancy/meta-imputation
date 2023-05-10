@@ -8,7 +8,7 @@ import java.util.List;
  * @author fanshupeng
  * @create 2023/4/26 16:52
  */
-public interface RunningService {
+public interface JobsService {
     /**
      * 保存或修改job数据
      * @param jobsDTO
