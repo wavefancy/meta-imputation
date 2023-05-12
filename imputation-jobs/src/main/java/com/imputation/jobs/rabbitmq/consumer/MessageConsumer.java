@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.imputation.jobs.running.dto.JobsDTO;
 import com.imputation.jobs.running.service.JobsService;
+import com.imputation.jobs.utils.ProcessUtils;
 import com.imputation.jobs.utils.StringUtils;
 import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
@@ -11,7 +12,6 @@ import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageProperties;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -35,6 +35,8 @@ public class MessageConsumer {
 
     @Autowired
     private JobsService jobsService;
+    @Autowired
+    private ProcessUtils processUtils;
 
     /**
      * 监听工作流提交成功返回队列
@@ -51,7 +53,7 @@ public class MessageConsumer {
         JSONObject msgJson= JSON.parseObject(msg);
         JobsDTO jobsDTO = toJobsDTO(msgJson);
         try {
-            if(StringUtils.isNotEmpty(jobsDTO.getUserName())
+            if(jobsDTO.getUserId() != null
                     &&StringUtils.isNotEmpty(jobsDTO.getJobName())){
                 jobsService.saveOrUpdateJob(jobsDTO);
             }else{
@@ -93,6 +95,10 @@ public class MessageConsumer {
                 jobsDTO.setStatus(0);
                 jobsDTO.setWorkflowExecutionUuid(cromwellId);
                 jobsService.saveOrUpdateJob(jobsDTO);
+                if(StringUtils.isNotEmpty(resPath)){
+                    //同步文件
+//                    processUtils.rsyncPull("","");
+                }
             }
             // 手动确认消息已经被消费
             channel.basicAck(messageProperties.getDeliveryTag(), false);
@@ -110,9 +116,9 @@ public class MessageConsumer {
         if(StringUtils.isNotEmpty(cromwellId)){
             jobsDTO.setWorkflowExecutionUuid(cromwellId);
         }
-        String userName = (String) msgJson.get("userName");
-        if(StringUtils.isNotEmpty(userName)){
-            jobsDTO.setUserName(userName);
+        String userId = (String) msgJson.get("userId");
+        if(StringUtils.isNotEmpty(userId)){
+            jobsDTO.setUserId(Long.valueOf(userId));
         }
         String jobName = (String) msgJson.get("jobName");
         if(StringUtils.isNotEmpty(jobName)){
@@ -120,6 +126,4 @@ public class MessageConsumer {
         }
         return jobsDTO;
     }
-
-
 }

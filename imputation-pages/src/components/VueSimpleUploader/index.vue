@@ -33,7 +33,7 @@
 <script>
 import SparkMD5 from 'spark-md5'
 import { isEmpty, }  from "@/utils/validate"
-import doCookie from "@/utils/cookie"
+// import doCookie from "@/utils/cookie"
 import  {fileInterface} from '@/api'
 const FILE_UPLOAD_ID_KEY = 'file_upload_id'
 // 分片大小，20MB
@@ -46,7 +46,7 @@ const CHUNK_SIZE = 20 * 1024 * 1024
       return {
         options: {
           // 上传地址
-          target: process.env.VUE_APP_BASE_API+'/cloudimpute/file/upload',
+          target: process.env.VUE_APP_BASE_JOB_API+'/imputation/job/upload',
           // 是否开启服务器分片校验。默认为 true
           testChunks: true,
           // 分片大小
@@ -57,11 +57,12 @@ const CHUNK_SIZE = 20 * 1024 * 1024
           simultaneousUploads: 3,
           //设置header
           headers: { 
-              Authorization: doCookie.getCookie("imputation-cookie")
+              // Authorization: doCookie.getCookie("imputation-cookie")
+              // 'X-Requested-With':'XMLHttpRequest'
           },
           query:{
             fileId: null,
-            // fileNameInput:""
+            fileNameInput:"",
             chunkIdentifier:""
           },
           //单文件上传
@@ -71,15 +72,10 @@ const CHUNK_SIZE = 20 * 1024 * 1024
            */
           checkChunkUploadedByResponse: (chunk, message) => {
             let messageObj = JSON.parse(message)
-            // let code = messageObj.code
-            // if(code != 0 && code != "0"){
-            //   console.log(messageObj.msg)
-            //   return false
-            // }
             let dataObj = messageObj.data
-            // if (dataObj.uploaded !== undefined) {
-            //   return !dataObj.uploaded
-            // }
+            if (dataObj.uploaded !== undefined) {
+              return dataObj.uploaded
+            }
             // 判断文件或分片是否已上传，已上传返回 true
             // 这里的 uploadedChunks 是后台返回
             return (dataObj.uploadedChunks || []).indexOf(chunk.offset + 1) >= 0
@@ -104,9 +100,9 @@ const CHUNK_SIZE = 20 * 1024 * 1024
     },
     
     watch: {
-        // 'fileName': function (val) { //监听props中的属性
-        //     // this.options.query.fileNameInput = val;
-        // },
+        'fileName': function (val) { //监听props中的属性
+            this.options.query.fileNameInput = val;
+        },
         'attr': function (val) { //监听props中的属性
             if(!isEmpty(val)){
               this.attrs.accept = val;
@@ -167,13 +163,20 @@ const CHUNK_SIZE = 20 * 1024 * 1024
 
         
         const data = resJaon.data
-        console.log("data="+data)
+        console.log("data="+resJaon)
 
+        if(!isEmpty(data)){
+          const flag = data.flag
+          if(flag){
+            //触发总线绑定的fileChange函数
+            this.$bus.$emit('fileChange',data)
+          }
+        }
         // if(!isEmpty(data)){
         //   const flag = data.flag
         //   if(flag){
             //触发总线绑定的fileChange函数
-            this.$bus.$emit('getFileList',1)
+            // this.$bus.$emit('getFileList',1)
         //   }
         // }
 

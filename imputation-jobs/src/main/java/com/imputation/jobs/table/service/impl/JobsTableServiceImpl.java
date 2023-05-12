@@ -12,6 +12,7 @@ import com.imputation.jobs.table.service.JobsTableService;
 import com.imputation.jobs.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,7 @@ import java.util.UUID;
  */
 @Slf4j
 @Service
+@EnableScheduling
 public class JobsTableServiceImpl implements JobsTableService {
     //imputation DIRECT交换机名称
     private static final String IMPUTATION_DIRECT_EXCHANGE_NAME = "imputation.direct.exchange";
@@ -42,7 +44,7 @@ public class JobsTableServiceImpl implements JobsTableService {
     /**
      * 定时任务：实时查询Jobs数据 发送查询未结束的工作流消息
      */
-    @Scheduled(cron = "0 60 * * * ?")
+    @Scheduled(cron = "10 * * * * ?")
     private void realTimeUpdateRunnerDetail(){
         log.info("实时查询Jobs数据定时任务开始每60秒执行一次");
 
@@ -70,6 +72,7 @@ public class JobsTableServiceImpl implements JobsTableService {
                 }
             }
             if(weUuidStrBuffer.length()>0){
+                log.info("存在进行中的工作流：{}\n开始发送消息",weUuidStrBuffer.toString());
                 //发送消息查询工作流状态
                 JSONObject reqMap = new JSONObject();
                 reqMap.put("uuidArr",weUuidStrBuffer.toString());

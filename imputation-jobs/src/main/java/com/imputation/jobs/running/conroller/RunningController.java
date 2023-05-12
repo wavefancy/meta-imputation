@@ -53,7 +53,6 @@ public class RunningController {
         jsonObject.put("Imputation.contigs",strs);
         //发送消息到Cromwell
         JSONObject  resMsg = new JSONObject();
-        resMsg.put("userName",jobReqDTO.getUserName());
         resMsg.put("jobJson",jsonObject.toJSONString());
         resMsg.put("jobName",jobReqDTO.getJobName());
         String messageId = UUID.randomUUID().toString();
@@ -84,10 +83,6 @@ public class RunningController {
         String jobName = jobReqDTO.getJobName();
         if(StringUtils.isNotEmpty(jobName)){
             jobsDTO.setJobName(jobName);
-        }
-        String userName = jobReqDTO.getUserName();
-        if(StringUtils.isNotEmpty(userName)){
-            jobsDTO.setUserName(userName);
         }
 
         jobsDTO.setStatus(0);

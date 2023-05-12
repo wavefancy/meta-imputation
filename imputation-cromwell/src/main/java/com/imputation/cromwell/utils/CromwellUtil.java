@@ -54,10 +54,10 @@ public class CromwellUtil {
                 status = (String) resultJson.get("status");
             }
         }catch (Exception e){
-            log.error("中止工作流uuid="+uuid+"失败",e);
+            log.error("查询工作流状态uuid="+uuid+"失败",e);
             return status;
         }
-        log.info("中止工作流uuid="+uuid+",\n结果flag="+flag);
+        log.info("查询工作流状态uuid="+uuid+",\n结果flag={}，status={}",flag,status);
         return status;
     }
 

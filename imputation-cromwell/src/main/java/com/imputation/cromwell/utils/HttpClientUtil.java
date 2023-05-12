@@ -144,9 +144,10 @@ public class HttpClientUtil {
             CloseableHttpClient httpClient = HttpClients.createDefault();
 
             HttpResponse response = httpClient.execute(get);
-            result = getHttpEntityContent(response);
 
+            result = getHttpEntityContent(response);
             if(response.getStatusLine().getStatusCode()!= HttpStatus.SC_OK){
+                log.info("get 请求"+url+"返回response=\n"+response.toString());
                 result = "服务器异常";
                 flag=false;
             }
@@ -158,7 +159,7 @@ public class HttpClientUtil {
         } finally{
             get.abort();
         }
-        log.info("get请求结果resMap="+JSONObject.toJSONString(resMap));
+        log.info("get请求"+url+"结果resMap="+JSONObject.toJSONString(resMap));
         return resMap;
     }
 

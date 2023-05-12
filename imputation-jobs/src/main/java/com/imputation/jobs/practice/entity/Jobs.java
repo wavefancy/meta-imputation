@@ -16,7 +16,7 @@ import lombok.Setter;
  * </p>
  *
  * @author fansp
- * @since 2023-05-05
+ * @since 2023-05-11
  */
 @Getter
 @Setter
@@ -30,9 +30,9 @@ public class Jobs implements Serializable {
     @TableId("id")
     private Long id;
 
-    @ApiModelProperty("用户名")
-    @TableField("user_name")
-    private String userName;
+    @ApiModelProperty("用户id")
+    @TableField("user_id")
+    private Long userId;
 
     @ApiModelProperty("工作名称")
     @TableField("job_name")

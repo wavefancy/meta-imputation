@@ -21,9 +21,9 @@ public class JobsDTO implements Serializable {
     private Long id;
 
     /**
-     * 用户名
+     * 用户id
      */
-    private String userName;
+    private Long userId;
 
     /**
      * 工作名称

@@ -4,7 +4,7 @@ spring:
   datasource:
     #驱动
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.103.140.193:3307/cloudimpute?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    url: jdbc:mysql://39.103.140.193:3307/imputation?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
     username: root
     password: qwe@11
   servlet:

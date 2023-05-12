@@ -10,8 +10,8 @@ module.exports = {
     devServer: {
       proxy: {
         "/dev-api": {
-          // target: "http://39.107.228.251:18081",
-          target: "http://119.78.66.78:80",
+          target: "http://39.107.228.251:18081",
+          // target: "http://119.78.66.78:80",
           changOrigin:true,
           pathRewrite: { '^/dev-api': '' },
         },
@@ -22,7 +22,8 @@ module.exports = {
           pathRewrite: { '^/prd-api': '' },
         },
         "/dev-job-api": {
-          target: "http://localhost:9080",
+          // target: "http://localhost:9080",
+          target: "http://39.107.228.251:19080",
           changOrigin:true,
           pathRewrite: { '^/dev-job-api': '' },
         },

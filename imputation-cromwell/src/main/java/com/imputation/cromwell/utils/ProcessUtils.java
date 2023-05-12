@@ -32,11 +32,7 @@ public class ProcessUtils {
     @Value("${rsync.source.password}")
     private  String sourcePassword;
 
-    /**
-     * 目标地址
-     */
-    @Value("${rsync.destination.path}")
-    private  String destinationPath;
+
 
     /**
      * 执行命令参数
@@ -44,7 +40,7 @@ public class ProcessUtils {
     @Value("${rsync.command.pull}")
     private  String commandPull;
 
-    public  boolean rsyncPull(String source,String destinationFileName){
+    public  boolean rsyncPull(String source,String destinationFileName,String destinationPath){
         log.info("rsync拷贝数据源：{} \n 拷贝目的地地址：{}" , source,destinationPath+"/"+destinationFileName);
 
         boolean res = false;

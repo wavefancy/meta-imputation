@@ -44,8 +44,8 @@ public class JobsServiceImpl implements JobsService {
         if(StringUtils.isNotEmpty(jobsDTO.getJobName())){
             updateWrapper.eq("job_name",jobsDTO.getJobName());
         }
-        if(StringUtils.isNotEmpty(jobsDTO.getUserName())){
-            updateWrapper.eq("user_name",jobsDTO.getUserName());
+        if(jobsDTO.getUserId() !=null){
+            updateWrapper.eq("user_id",jobsDTO.getUserId());
         }
         if(StringUtils.isNotEmpty(jobsDTO.getWorkflowExecutionUuid())){
             updateWrapper.eq("workflow_execution_uuid",jobsDTO.getWorkflowExecutionUuid());
@@ -67,8 +67,8 @@ public class JobsServiceImpl implements JobsService {
         if(StringUtils.isNotEmpty(jobsDTO.getJobName())){
             queryWrapper.eq("job_name",jobsDTO.getJobName());
         }
-        if(StringUtils.isNotEmpty(jobsDTO.getUserName())){
-            queryWrapper.eq("user_name",jobsDTO.getUserName());
+        if(jobsDTO.getUserId() !=null){
+            queryWrapper.eq("user_id",jobsDTO.getUserId());
         }
         queryWrapper.eq("is_delete",0);
         List<Jobs> jobsList = jobsBo.list(queryWrapper);

@@ -5,7 +5,7 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.imputation.jobs.practice.entity.Jobs">
         <id column="id" property="id" />
-        <result column="user_name" property="userName" />
+        <result column="user_id" property="userId" />
         <result column="job_name" property="jobName" />
         <result column="workflow_execution_uuid" property="workflowExecutionUuid" />
         <result column="message_uuid" property="messageUuid" />

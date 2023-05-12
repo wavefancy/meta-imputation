@@ -15,6 +15,9 @@ public class MyFastAutoGenerator {
     public static void main(String[] args) {
         List<String> tables = new ArrayList<>();
         tables.add("jobs");
+        tables.add("files");
+        tables.add("file_chunk");
+        tables.add("users");
 
 
         /**
@@ -22,7 +25,7 @@ public class MyFastAutoGenerator {
          * username:数据库账号
          * password：数据库密码
          */
-        FastAutoGenerator.create("jdbc:mysql://39.103.140.193:3307/cloudimpute?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true","root","qwe@11")
+        FastAutoGenerator.create("jdbc:mysql://39.103.140.193:3307/imputation?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true","root","qwe@11")
                 .globalConfig(builder -> {
                     builder.author("fansp")//作者
                             .outputDir("E:\\IdeaProjects\\imputation\\meta-imputation\\imputation-jobs\\src\\main\\java")    //输出路径(写到java目录)

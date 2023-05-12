@@ -21,7 +21,7 @@
                 <input type="text" class="form-control" v-model.trim="descrition" ref="descrition" style="border: 1px solid #ced4da;"/>
               </div>
             </div>
-            <VueSimpleUploader :fileName="fileName" :descrition="descrition" attr=".gz" ></VueSimpleUploader>
+            <VueSimpleUploader :fileName="fileName" :descrition="descrition" attr="*" ></VueSimpleUploader>
           </div>
         </div>
         <div class="vstack gap-6 mt-3">
@@ -50,7 +50,7 @@
                     </td>
                     <td>
                       <div class="d-flex align-items-center">
-                        {{file.desc}}
+                        {{file.descrition}}
                       </div>
                     </td>
                     <td>
@@ -131,17 +131,64 @@
         }
     },
     methods: {
+      fileChange(data){
+        // let formData = new FormData();
+        // formData.append('descrition',this.descrition)
+        // formData.append('fileName',this.fileName)
+        // formData.append('filePath',data.filePath)
+        // formData.append('suffixName',data.suffixName)
+        // formData.append('identifier',data.identifier)
+        let subData = {
+          descrition:this.descrition,
+          fileName:this.fileName,
+          filePath:data.filePath,
+          suffixName:data.suffixName,
+          identifier:data.identifier
+        }
+        fileInterface.saveFilesInfo(subData).then(response => {
+          const resData = response
+          const code = resData.code;
+          if(code === 0){
+            const innerData = resData.data;
+            const msg = innerData.msg;
+            if(innerData.code === 0){
+              this.fileName=""
+              this.descrition=""
+              //刷新table
+              this.getFileList(this.currentPage,this.pageSize)
+            }else{
+              //提示框
+              this.$MessageBox.alert(msg, 'Message', {
+                confirmButtonText: 'OK',
+                callback: () => {
+                }
+              })
+
+            }
+          }else{
+            this.$MessageBox.alert('System is busy, please try again later !', 'Message', {
+                confirmButtonText: 'OK',
+                callback: () => {
+                }
+              })
+          }
+
+        })
+      },
       getFileList(currentPage ){
         this.currentPage = currentPage
         let subData = {
-          pageNum:currentPage-1
+          pageNum:currentPage
         }
-        fileInterface.fileSelect(subData).then((response) => {
+        fileInterface.getFileList(subData).then((response) => {
           let code = response.code
           if(code === "0" || code === 0){
             const resData = response.data;
-            this.files.fileList=resData.fileList;
-            this.total = resData.total
+            if(resData.code == 0){
+              this.files.fileList=resData.resDTOList;
+              this.total = resData.total
+            }
+            
           }
         })
        
@@ -196,10 +243,9 @@
     },
     //数据初始化
     mounted(){
-      
       //为总线绑定函数
       this.$bus.$on('getFileList',this.getFileList)
-      // this.$bus.$on('fileChange',this.fileChange)
+      this.$bus.$on('fileChange',this.fileChange)
       this.getFileList(this.currentPage);
     },
     watch: {

@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Mapper;
  * </p>
  *
  * @author fansp
- * @since 2023-05-05
+ * @since 2023-05-11
  */
 @Mapper
 public interface JobsMapper extends BaseMapper<Jobs> {

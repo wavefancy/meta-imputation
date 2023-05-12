@@ -19,10 +19,6 @@ public class JobReqDTO  implements Serializable {
      */
     private String jobName;
     /**
-     * 工作流名称
-     */
-    private String userName;
-    /**
      * 工作流参数集
      */
     private String jobJson;
