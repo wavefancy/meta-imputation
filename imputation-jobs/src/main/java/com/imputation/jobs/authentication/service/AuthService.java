@@ -7,7 +7,7 @@ import com.imputation.jobs.practice.entity.Users;
 public interface AuthService {
     /**
      * 新增或修改user
-     * @param user
+     * @param users
      * @return
      */
     BaseResult saveOrUpdateUser(Users users);
@@ -21,14 +21,14 @@ public interface AuthService {
 
     /**
      * 根据传入信息获取用户信息
-     * @param user
+     * @param users
      * @return
      */
     BaseResult getUserInfo(Users users);
 
     /**
      * 删除用户
-     * @param user
+     * @param users
      * @return
      */
     BaseResult deleteUser(Users users);

@@ -42,7 +42,7 @@ import java.util.Map;
  */
 @Slf4j
 @RestController
-@RequestMapping(value = "/prs/hub")
+@RequestMapping(value = "/imputation/job")
 public class AuthController extends BaseController {
 
     /**
@@ -124,6 +124,7 @@ public class AuthController extends BaseController {
         /**
          * 新增用户
          */
+        user.setUsername(userShowReqDTO.getUsername());
         user.setPassword(MD5Util.MD5Encode(password,"utf-8"));
         user.setFirstName(userShowReqDTO.getFirstName());
         user.setLastName(userShowReqDTO.getLastName());
@@ -250,16 +251,17 @@ public class AuthController extends BaseController {
             return BaseResult.ok("接口调用成功",resultMap);
         }
         String email = userShowReqDTO.getEmail();
+        String username = userShowReqDTO.getUsername();
         String password = userShowReqDTO.getPassword();
-        if(StringUtils.isEmpty(email) || StringUtils.isEmpty(password)){
-            log.info("登录login方法结束，用户必填数据email或password为空");
+        if(StringUtils.isEmpty(username) || StringUtils.isEmpty(password)){
+            log.info("登录login方法结束，用户必填数据username或password为空");
             resultMap.put("code",ResultCodeEnum.EMPTY.getCode());
-            resultMap.put("msg","用户必填数据email或password为空");
+            resultMap.put("msg","用户必填数据username或password为空");
             return BaseResult.ok("接口调用成功",resultMap);
         }
         //组装service入参数据
         Users user = new Users();
-        user.setEmail(email);
+        user.setUsername(username);
         user.setPassword(MD5Util.MD5Encode(password,"utf-8"));
         user.setStatus(1);//激活成功的用户才可以登录
         try {

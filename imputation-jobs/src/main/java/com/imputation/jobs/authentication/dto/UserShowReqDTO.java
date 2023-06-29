@@ -1,5 +1,6 @@
 package com.imputation.jobs.authentication.dto;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -13,6 +14,11 @@ public class UserShowReqDTO implements Serializable {
 
     /**主键**/
     private String id;
+
+    /**
+     * 用户名
+     */
+    private String username;
 
     /**邮箱地址**/
     private String email;

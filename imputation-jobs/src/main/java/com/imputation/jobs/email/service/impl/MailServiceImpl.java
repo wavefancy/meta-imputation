@@ -80,7 +80,7 @@ public class MailServiceImpl implements IMailService {
             //邮件主题
             message.setSubject(subject);
             messageHelper.setText("尊敬的用户,您好:<br>"
-                    + "<br>请点击下方的“邮箱激活”，进行注册激活:<br><a href=\'"+systemServicePath+"/prs/hub/authActive?msg="+content+"\'>邮箱激活</a><br>本次激活链接30分钟内有效，请及时激活。<br>"
+                    + "<br>请点击下方的“邮箱激活”，进行注册激活:<br><a href=\'"+systemServicePath+"/imputation/job/authActive?msg="+content+"\'>邮箱激活</a><br>本次激活链接30分钟内有效，请及时激活。<br>"
                     + "<br>如非本人操作，请忽略该邮件。<br>(这是一封自动发送的邮件，请不要直接回复）", true);
             //发送
             mailSender.send(message);
