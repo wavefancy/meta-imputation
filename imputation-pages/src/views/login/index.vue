@@ -63,14 +63,15 @@ export default {
                 password:this.form.password
             }
             this.isLoad = true
-            user.login(subData).then((response) => {
+            user.reqLogin(subData).then((response) => {
                 let code = response.code
                 if(code === "0" || code === 0){
                     //修改登录状态
                     this.$bus.$emit('setLoginVal',true,username)
                     let data = response.data
                     if(!isEmpty(data)){
-                        doCookie.setCookie("imputation-cookie",data,15)
+                        const token = data.token
+                        doCookie.setCookie("imputation-cookie",token,15)
                         doCookie.setCookie("imputation-username",username,15)
                     }
                     this.isLoad = false

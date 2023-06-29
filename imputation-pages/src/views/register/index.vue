@@ -189,7 +189,7 @@ export default {
             city: this.form.city
         }
         //提交数据
-        user.register(subData).then((response) => {
+        user.auth(subData).then((response) => {
             const data = response
             console.log(data);
             let code = data.code

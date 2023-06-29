@@ -1,28 +1,15 @@
-import request from "@/utils/request";
-let baseURL = process.env.VUE_APP_BASE_API
+import requests from "@/utils/request";
+
+let baseURL = process.env.VUE_APP_BASE_JOB_API
 export default {
     //注册
-    register(params) {
-        return request.post(baseURL+`/cloudimpute/user/register`, params);
-    },
+    auth(params){return requests.get(baseURL+`/imputation/job/auth`,params);},
     //登录
-    login(params) {
-        return request.post(baseURL+`/cloudimpute/user/login`, params);
-    },
-    //登出
-    logout(params) {
-        return request.post(baseURL+`/cloudimpute/user/logout`, params);
-    },
-    //获取用户信息
-    querythisuser(params) {
-        return request.post(baseURL+`/cloudimpute/user/querythisuser`, params);
-    },
-    //修改用户信息
-    update(params) {
-        return request.post(baseURL+`/cloudimpute/user/update`, params);
-    },
-    //注销
-    unregister(params) {
-        return request.post(baseURL+`/cloudimpute/user/unregister`, params);
-    },
+    reqLogin(params){return requests.get(baseURL+`/imputation/job/login`,params);},
+    //初始化用户数据
+    getUserInfo(params){return requests.get(baseURL+`/imputation/job/getUserInfo`,params);},
+    //修改用户数据
+    updatedUser(params){return requests.get(baseURL+`/imputation/job/updatedUser`,params);},
+    //删除用户数据
+    deleteUser(params){return requests.get(baseURL+`/imputation/job/deleteUser`,params);},
 }
