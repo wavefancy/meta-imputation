@@ -4,9 +4,9 @@ spring:
   datasource:
     #驱动
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://39.103.140.193:3307/imputation?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    url: jdbc:mysql://192.168.77.45:3306/imputation?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
     username: root
-    password: qwe@11
+    password: e2ba10139acb6a44
   servlet:
     # 本地文件上传：最大支持文件大小
     multipart:
@@ -16,16 +16,31 @@ spring:
       resolve-lazily: false
   #配置rabbitmq
   rabbitmq:
-    host: 39.103.140.193
+    host: 118.195.223.193
     port: 5672
-    username: admin
-    password: 123
+    username: prs_hub
+    password: zcygkc36
     virtual-host: /
     #发布消息成功到交换器后会触发回调方法
     publisher-confirm-type: correlated
     #消息无法路由时，开启消息回退
     publisher-returns: true
-
+  # 邮件配置
+  mail:
+    host: smtp.qq.com    #邮箱服务器地址 此处为QQ邮箱的
+    username: 610958259@qq.com   #邮箱账号
+    password: mvwzfxbfpqygbfje            #邮箱密码，此处为QQ邮箱授权码，
+    default-encoding: utf-8    #默认编码
+    from: 610958259@qq.com  #邮件发件人
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+  thymeleaf:
+    prefix: classpath:/mail/  #prefix：指定模板所在的目录
+    check-template-location: true  #check-tempate-location: 检查模板路径是否存在
+    cache: false  #cache: 是否缓存，开发模式下设置为false，避免改了模板还要重启服务器，线上设置为true，可以提高性能。
+    suffix: .html
+    mode: HTML5
 #控制台打印sql
 mybatis-plus:
   configuration:
