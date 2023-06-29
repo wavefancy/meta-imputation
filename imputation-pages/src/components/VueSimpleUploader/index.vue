@@ -33,7 +33,7 @@
 <script>
 import SparkMD5 from 'spark-md5'
 import { isEmpty, }  from "@/utils/validate"
-// import doCookie from "@/utils/cookie"
+import doCookie from "@/utils/cookie"
 import  {fileInterface} from '@/api'
 const FILE_UPLOAD_ID_KEY = 'file_upload_id'
 // 分片大小，20MB
@@ -57,8 +57,7 @@ const CHUNK_SIZE = 20 * 1024 * 1024
           simultaneousUploads: 3,
           //设置header
           headers: { 
-              // Authorization: doCookie.getCookie("imputation-cookie")
-              // 'X-Requested-With':'XMLHttpRequest'
+              Authorization: doCookie.getCookie("imputation-cookie")
           },
           query:{
             fileId: null,
